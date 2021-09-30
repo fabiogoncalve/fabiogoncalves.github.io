@@ -52,6 +52,7 @@ padding: 50px;
 
 }
 
+
 /*bio container*/
 #bio-container h2{
 
@@ -109,6 +110,14 @@ font-weight: bold;
 
 }
 
+#mobile-container{
+
+    display: flex;
+    justify-content: center;
+    color: white;
+  
+}
+
 #email container ion-icon,
 #email-container a {
 
@@ -158,39 +167,66 @@ max-width: 20px;
     
 }
 #btn-projects{
-font-weight: bold;
-font-size: 16px;
-color: var(--main-text-color);
-background-color: var(--main-color);
-border: 2px solid var(--main-color);
-border-radius: 5px;
-text-decoration: none;
-transition: 0.5s;
-margin: 25px 0;
-padding:  12px 10px;
-width: 150px;
-text-align: center;
-display: flex;
-
-}
-#btn-projects ion-icon,
-#btw-projects span{
-
-    flex: 1 1 0;
-
-
-}
-
-#btn-projects ion-icon{
-
-    font-size: 20px;
-    max-width: 20px;
-
-}
-
-#btn-projects:hover{
-background-color: transparent;
-}
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--main-text-color);
+    background-color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 25px 0;
+    padding:  12px 10px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    
+    }
+    #btn-projects ion-icon,
+    #btw-projects span{
+    
+        flex: 1 1 0;
+    
+    
+    }
+    
+    #btn-projects ion-icon{
+    
+        font-size: 20px;
+        max-width: 20px;
+    
+    }
+    
+    #btn-projects:hover{
+    background-color: transparent;
+    }
+#btnStack {
+    font-family: Oswald;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  
+  a.btnStack:hover {
+    background-color: #000;
+  }
 
 #skills-section-title{
 
@@ -294,4 +330,6 @@ text-align: left;
     font-size: 60px;
 
 }
+
+
 }
